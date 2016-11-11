@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D7D97A21DD55EBF0041434E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D97A11DD55EBF0041434E /* AppDelegate.swift */; };
+		4D7D97A41DD55EBF0041434E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D97A31DD55EBF0041434E /* ViewController.swift */; };
+		4D7D97A71DD55EBF0041434E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7D97A51DD55EBF0041434E /* Main.storyboard */; };
+		4D7D97A91DD55EBF0041434E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D7D97A81DD55EBF0041434E /* Assets.xcassets */; };
+		4D7D97AC1DD55EBF0041434E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7D97AA1DD55EBF0041434E /* LaunchScreen.storyboard */; };
+		C308A36C41FDE29FE9831D4F /* Pods_SimpleTinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5904738039A36CEAE548A8E /* Pods_SimpleTinder.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E77A67D6FF8B25724EB46B1 /* Pods-SimpleTinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleTinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleTinder/Pods-SimpleTinder.release.xcconfig"; sourceTree = "<group>"; };
+		4D7D979E1DD55EBF0041434E /* SimpleTinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D7D97A11DD55EBF0041434E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D7D97A31DD55EBF0041434E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D7D97A61DD55EBF0041434E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D7D97A81DD55EBF0041434E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D7D97AB1DD55EBF0041434E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D7D97AD1DD55EBF0041434E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5904738039A36CEAE548A8E /* Pods_SimpleTinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleTinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDEAB378F5A36C086102E033 /* Pods-SimpleTinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleTinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleTinder/Pods-SimpleTinder.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D7D979B1DD55EBF0041434E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C308A36C41FDE29FE9831D4F /* Pods_SimpleTinder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D7D97951DD55EBF0041434E = {
+			isa = PBXGroup;
+			children = (
+				4D7D97A01DD55EBF0041434E /* SimpleTinder */,
+				4D7D979F1DD55EBF0041434E /* Products */,
+				B61BD6DFD9A034781C38914D /* Pods */,
+				7E8296C59CF33243A0BDD55B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4D7D979F1DD55EBF0041434E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D7D979E1DD55EBF0041434E /* SimpleTinder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D7D97A01DD55EBF0041434E /* SimpleTinder */ = {
+			isa = PBXGroup;
+			children = (
+				4D7D97A11DD55EBF0041434E /* AppDelegate.swift */,
+				4D7D97A31DD55EBF0041434E /* ViewController.swift */,
+				4D7D97A51DD55EBF0041434E /* Main.storyboard */,
+				4D7D97A81DD55EBF0041434E /* Assets.xcassets */,
+				4D7D97AA1DD55EBF0041434E /* LaunchScreen.storyboard */,
+				4D7D97AD1DD55EBF0041434E /* Info.plist */,
+			);
+			path = SimpleTinder;
+			sourceTree = "<group>";
+		};
+		7E8296C59CF33243A0BDD55B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5904738039A36CEAE548A8E /* Pods_SimpleTinder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B61BD6DFD9A034781C38914D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDEAB378F5A36C086102E033 /* Pods-SimpleTinder.debug.xcconfig */,
+				3E77A67D6FF8B25724EB46B1 /* Pods-SimpleTinder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D7D979D1DD55EBF0041434E /* SimpleTinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D7D97B01DD55EBF0041434E /* Build configuration list for PBXNativeTarget "SimpleTinder" */;
+			buildPhases = (
+				04CC4A19BE6485D3D26A2966 /* [CP] Check Pods Manifest.lock */,
+				4D7D979A1DD55EBF0041434E /* Sources */,
+				4D7D979B1DD55EBF0041434E /* Frameworks */,
+				4D7D979C1DD55EBF0041434E /* Resources */,
+				018AD1A06D3C0B1FEE8565D7 /* [CP] Embed Pods Frameworks */,
+				57939D3752AB5BEA3AEB2CFD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleTinder;
+			productName = SimpleTinder;
+			productReference = 4D7D979E1DD55EBF0041434E /* SimpleTinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D7D97961DD55EBF0041434E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Nari Shin";
+				TargetAttributes = {
+					4D7D979D1DD55EBF0041434E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4D7D97991DD55EBF0041434E /* Build configuration list for PBXProject "SimpleTinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D7D97951DD55EBF0041434E;
+			productRefGroup = 4D7D979F1DD55EBF0041434E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D7D979D1DD55EBF0041434E /* SimpleTinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D7D979C1DD55EBF0041434E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7D97AC1DD55EBF0041434E /* LaunchScreen.storyboard in Resources */,
+				4D7D97A91DD55EBF0041434E /* Assets.xcassets in Resources */,
+				4D7D97A71DD55EBF0041434E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		018AD1A06D3C0B1FEE8565D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleTinder/Pods-SimpleTinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		04CC4A19BE6485D3D26A2966 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		57939D3752AB5BEA3AEB2CFD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleTinder/Pods-SimpleTinder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D7D979A1DD55EBF0041434E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7D97A41DD55EBF0041434E /* ViewController.swift in Sources */,
+				4D7D97A21DD55EBF0041434E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D7D97A51DD55EBF0041434E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D7D97A61DD55EBF0041434E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D7D97AA1DD55EBF0041434E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D7D97AB1DD55EBF0041434E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D7D97AE1DD55EBF0041434E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D7D97AF1DD55EBF0041434E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D7D97B11DD55EBF0041434E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDEAB378F5A36C086102E033 /* Pods-SimpleTinder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleTinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nari.SimpleTinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4D7D97B21DD55EBF0041434E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E77A67D6FF8B25724EB46B1 /* Pods-SimpleTinder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleTinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nari.SimpleTinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D7D97991DD55EBF0041434E /* Build configuration list for PBXProject "SimpleTinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D7D97AE1DD55EBF0041434E /* Debug */,
+				4D7D97AF1DD55EBF0041434E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D7D97B01DD55EBF0041434E /* Build configuration list for PBXNativeTarget "SimpleTinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D7D97B11DD55EBF0041434E /* Debug */,
+				4D7D97B21DD55EBF0041434E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D7D97961DD55EBF0041434E /* Project object */;
+}
