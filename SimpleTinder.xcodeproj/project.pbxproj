@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4D7D97A21DD55EBF0041434E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D97A11DD55EBF0041434E /* AppDelegate.swift */; };
-		4D7D97A41DD55EBF0041434E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D97A31DD55EBF0041434E /* ViewController.swift */; };
+		4D7D97A41DD55EBF0041434E /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D97A31DD55EBF0041434E /* CardsViewController.swift */; };
 		4D7D97A71DD55EBF0041434E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7D97A51DD55EBF0041434E /* Main.storyboard */; };
 		4D7D97A91DD55EBF0041434E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D7D97A81DD55EBF0041434E /* Assets.xcassets */; };
 		4D7D97AC1DD55EBF0041434E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7D97AA1DD55EBF0041434E /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		3E77A67D6FF8B25724EB46B1 /* Pods-SimpleTinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleTinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleTinder/Pods-SimpleTinder.release.xcconfig"; sourceTree = "<group>"; };
 		4D7D979E1DD55EBF0041434E /* SimpleTinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D7D97A11DD55EBF0041434E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D7D97A31DD55EBF0041434E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D7D97A31DD55EBF0041434E /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
 		4D7D97A61DD55EBF0041434E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D7D97A81DD55EBF0041434E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D7D97AB1DD55EBF0041434E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				4D7D97A11DD55EBF0041434E /* AppDelegate.swift */,
-				4D7D97A31DD55EBF0041434E /* ViewController.swift */,
+				4D7D97A31DD55EBF0041434E /* CardsViewController.swift */,
 				4D7D97A51DD55EBF0041434E /* Main.storyboard */,
 				4D7D97A81DD55EBF0041434E /* Assets.xcassets */,
 				4D7D97AA1DD55EBF0041434E /* LaunchScreen.storyboard */,
@@ -211,7 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D7D97A41DD55EBF0041434E /* ViewController.swift in Sources */,
+				4D7D97A41DD55EBF0041434E /* CardsViewController.swift in Sources */,
 				4D7D97A21DD55EBF0041434E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
