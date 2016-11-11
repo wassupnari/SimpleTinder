@@ -12,6 +12,8 @@
 		4D7D97A71DD55EBF0041434E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7D97A51DD55EBF0041434E /* Main.storyboard */; };
 		4D7D97A91DD55EBF0041434E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D7D97A81DD55EBF0041434E /* Assets.xcassets */; };
 		4D7D97AC1DD55EBF0041434E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7D97AA1DD55EBF0041434E /* LaunchScreen.storyboard */; };
+		4D7D97B41DD56DAE0041434E /* DraggableImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D7D97B31DD56DAE0041434E /* DraggableImageView.xib */; };
+		4D7D97B61DD56E1E0041434E /* DraggableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D97B51DD56E1E0041434E /* DraggableImageView.swift */; };
 		C308A36C41FDE29FE9831D4F /* Pods_SimpleTinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5904738039A36CEAE548A8E /* Pods_SimpleTinder.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +26,8 @@
 		4D7D97A81DD55EBF0041434E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D7D97AB1DD55EBF0041434E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D7D97AD1DD55EBF0041434E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D7D97B31DD56DAE0041434E /* DraggableImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DraggableImageView.xib; sourceTree = "<group>"; };
+		4D7D97B51DD56E1E0041434E /* DraggableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableImageView.swift; sourceTree = "<group>"; };
 		B5904738039A36CEAE548A8E /* Pods_SimpleTinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleTinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDEAB378F5A36C086102E033 /* Pods-SimpleTinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleTinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleTinder/Pods-SimpleTinder.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,9 +68,11 @@
 				4D7D97A11DD55EBF0041434E /* AppDelegate.swift */,
 				4D7D97A31DD55EBF0041434E /* ViewController.swift */,
 				4D7D97A51DD55EBF0041434E /* Main.storyboard */,
+				4D7D97B31DD56DAE0041434E /* DraggableImageView.xib */,
 				4D7D97A81DD55EBF0041434E /* Assets.xcassets */,
 				4D7D97AA1DD55EBF0041434E /* LaunchScreen.storyboard */,
 				4D7D97AD1DD55EBF0041434E /* Info.plist */,
+				4D7D97B51DD56E1E0041434E /* DraggableImageView.swift */,
 			);
 			path = SimpleTinder;
 			sourceTree = "<group>";
@@ -152,6 +158,7 @@
 			files = (
 				4D7D97AC1DD55EBF0041434E /* LaunchScreen.storyboard in Resources */,
 				4D7D97A91DD55EBF0041434E /* Assets.xcassets in Resources */,
+				4D7D97B41DD56DAE0041434E /* DraggableImageView.xib in Resources */,
 				4D7D97A71DD55EBF0041434E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D7D97A41DD55EBF0041434E /* ViewController.swift in Sources */,
+				4D7D97B61DD56E1E0041434E /* DraggableImageView.swift in Sources */,
 				4D7D97A21DD55EBF0041434E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
